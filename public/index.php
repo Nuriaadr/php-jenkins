@@ -2,7 +2,7 @@
 require_once __DIR__ . '/../src/Calculator.php';
 
 $calc = new Calculator();
-$result = $calc->add(2, 6);
+$result = $calc->add(2, 8);
 ?>
 
 <!DOCTYPE html>
@@ -14,7 +14,7 @@ $result = $calc->add(2, 6);
 
 <body>
     <h1>Calculadora PHP con Docker y Jenkins</h1>
-    <p>2 + 6 = <strong><?= $result ?></strong></p>
+    <p>2 + 8 = <strong><?= $result ?></strong></p>
 </body>
 
 </html>
